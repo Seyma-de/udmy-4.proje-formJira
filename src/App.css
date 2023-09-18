@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-create {
+  width: 450px;
+}
+.task-form {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  margin: 10px 0px;
+}
+input {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+textarea {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+button {
+  margin: 15px 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 20px;
+}
+.görevler-kutusu {
+  border: 1px solid cornflowerblue;
+  background-color: rgb(214, 225, 247);
+  border-radius: 30px;
+  width: 350px;
+  text-align: center;
+  margin: 20px;
+}
+.buton {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+.task-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.task-update {
+  width: 100%;
+}
